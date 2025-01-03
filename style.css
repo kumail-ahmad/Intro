@@ -53,8 +53,8 @@ header.navbar {
 
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
   padding: 50px;
   background: #ffffff;
   margin: 20px;
