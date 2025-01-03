@@ -1,10 +1,43 @@
-body{  background:  hsla(341, 81%, 64%, 1);
 
-    background: linear-gradient(135deg, hsla(341, 81%, 64%, 1) 0%, hsla(16, 90%, 77%, 1) 36%);
-    
-    background: -moz-linear-gradient(135deg, hsla(341, 81%, 64%, 1) 0%, hsla(16, 90%, 77%, 1) 36%);
-    
-    background: -webkit-linear-gradient(135deg, hsla(341, 81%, 64%, 1) 0%, hsla(16, 90%, 77%, 1) 36%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EE5988", endColorstr="#F9AB8F", GradientType=1 );
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* justify-content:  */
+  /* align-items: ; */
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: hsla(16, 100%, 66%, 1);
+
+background: linear-gradient(135deg, hsla(16, 100%, 66%, 1) 22%, hsla(0, 0%, 98%, 1) 72%);
+
+background: -moz-linear-gradient(135deg, hsla(16, 100%, 66%, 1) 22%, hsla(0, 0%, 98%, 1) 72%);
+
+background: -webkit-linear-gradient(135deg, hsla(16, 100%, 66%, 1) 22%, hsla(0, 0%, 98%, 1) 72%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF8052", endColorstr="#FAFAFA", GradientType=1 );
+}
+
+
+.container {
+ 
+  margin-top:10vh;
+  margin-left:15vh
+}
+
+
+.main-text .main {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.intro .int {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.welcome h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #555;
 }
