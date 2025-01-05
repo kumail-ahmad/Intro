@@ -202,3 +202,68 @@ footer {
 .linkedin {
   color: #0077b5;
 }
+.img {
+  margin-left: 325px;
+  border-radius: 62px;
+}
+.table {
+  margin-left: 32px;
+}
+
+.table-container {
+  max-width: 80%;
+  margin: 20px auto;
+  overflow-x: auto;
+  background-color: #d6caca;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.styled-table thead tr {
+  background-color: #aaf09c;
+  color: #000000;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table th {
+  border-bottom: 2px solid #505963;
+}
+
+.styled-table td {
+  border-bottom: 1px solid #dddddd;
+}
+
+@media (max-width: 768px) {
+  .styled-table th,
+  .styled-table td {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
